@@ -24,8 +24,8 @@
             <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
             </div>';
         break;
-        // default:
-        //     header("Location: ./index.php?c=home")
-        // break;
+        default:
+            header("Location: ./index.php?c=home");
+        break;
     }
     header("Refresh: 3; url=./index.php?c=home");
