@@ -22,3 +22,13 @@ a:link {
   a:active {
     color: #000;
   }
+
+img.side-img {
+    width: 50%;
+}
+
+#footer{
+  background-color: red;
+  margin-top: 0px;
+  min-height: 10px;
+}

@@ -18,15 +18,13 @@
       <div class="row" id="content">
       <div class="col-12">
     <?php 
-      if ( isset($_GET["content"]) ) {
-        include("./" . $_GET["content"] . ".php"); 
+      if ( isset($_GET["c"]) ) {
+        include("./" . $_GET["c"] . ".php"); 
       }
       else {
         include("./home.php");
       }
     ?>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
